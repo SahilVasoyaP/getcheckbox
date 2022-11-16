@@ -13,6 +13,7 @@ class first extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       body: Column(
         children: [
           Obx(() => CheckboxListTile(title: Text("650"),value:m.s.value , onChanged: <bool>(value){
